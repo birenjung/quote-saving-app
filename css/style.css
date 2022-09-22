@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+.navbar-brand{
+    font-family: 'Arizonia', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.write{
+    width: 80%;
+    margin: auto; 
+    
+   
+}
+.social ul li{
+    list-style: none;
+    display: inline;
+
+}
+.quotes-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.card{
+    width: 80%;
+}
+.card-body{
+    font-family: 'Arizonia', cursive;
+    font-size: 1.5rem;
+}
+.msg{
+    color: black;
+}
+@media screen and (max-width:400px) {
+    .quotations{
+       margin-left: 20%;
+    }
+    .write{
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card{
+        width: 100%;
+    }
+}
