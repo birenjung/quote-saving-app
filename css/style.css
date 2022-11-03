@@ -25,7 +25,8 @@
     flex-wrap: wrap; 
 }
 .card{
-    width: 80%;
+    width: 45%;
+    background-color: #ffeaa7;
 }
 .card-body{
     font-family: 'Arizonia', cursive;
@@ -48,3 +49,4 @@
         width: 100%;
     }
 }
+
